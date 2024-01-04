@@ -35,6 +35,14 @@ const SinglePost = () => {
         </h1>
       ) : (
         <section className="px-5 xl:max-w-6xl xl:mx-auto pb-20">
+          <button className="mt-8">
+            <Link
+              to="/blog"
+              className="py-2 px-6 rounded shadow text-white bg-black hover:bg-transparent border-2 border-black transition-all duration-500 hover:text-black font-bold"
+            >
+              Back
+            </Link>
+          </button>
           <h1 className="uppercase font-bold text-4xl tracking-wide mb-10 mt-5 md:text-6xl lg:text-8xl text-center ">
             {singlePost.title}
           </h1>
