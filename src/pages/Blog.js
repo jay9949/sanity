@@ -31,7 +31,7 @@ const Blog = () => {
         <h1 className="font-bold text-4xl mt-5 mb-10 tracking-widest text-center md:text-6xl lg:text-8xl">
           Blog page
         </h1>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 s:px-7 gap-5 ms:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {posts.map((post) => (
             <article key={post.slug.current}>
               <img src={post.mainImage.asset.url} alt={post.title} />

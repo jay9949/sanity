@@ -5,7 +5,7 @@ const Homepage = () => {
   return (
     <div>
       <section className="flex flex-col items-center justify-center text-center h-screen">
-        <h1 className="uppercase font-bold text-4xl tracking-wide text-center mb-5 md:text-6xl lg:text-8xl">
+        <h1 className="uppercase font-bold text-4xl tracking-wide text-center mb-16 md:text-6xl lg:text-8xl ">
           Jay's Blog
         </h1>
         <button>
@@ -13,7 +13,7 @@ const Homepage = () => {
             to="/blog"
             className="py-2 px-6 rounded shadow text-white bg-black hover:bg-transparent border-2 border-black transition-all duration-500 hover:text-black font-bold"
           >
-            Read my blog post
+            Read Blog Posts
           </Link>
         </button>
       </section>

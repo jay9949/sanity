@@ -15,7 +15,7 @@ body {
 
 img {
     max-width: 100%;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .block__content p {

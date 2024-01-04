@@ -35,7 +35,7 @@ const SinglePost = () => {
         </h1>
       ) : (
         <section className="px-5 xl:max-w-6xl xl:mx-auto pb-20">
-          <h1 className="uppercase font-bold text-4xl tracking-wide mb-10 mt-5 md:text-6xl lg:text-8xl text-center">
+          <h1 className="uppercase font-bold text-4xl tracking-wide mb-10 mt-5 md:text-6xl lg:text-8xl text-center ">
             {singlePost.title}
           </h1>
           {singlePost.mainImage && singlePost.mainImage.asset && (
